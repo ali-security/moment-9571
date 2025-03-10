@@ -1,6 +1,6 @@
 {
     "name": "moment",
-    "version": "2.29.1",
+    "version": "2.29.1-sp1",
     "description": "Parse, validate, manipulate, and display dates",
     "homepage": "https://momentjs.com",
     "author": "Iskren Ivov Chernev <iskren.chernev@gmail.com> (https://github.com/ichernev)",
@@ -101,7 +101,7 @@
         "prettier-check": "prettier --check Gruntfile.js tasks src",
         "prettier-fmt": "prettier --write Gruntfile.js tasks src",
         "coverage": "nyc npm test && nyc report",
-        "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+        "coveralls": "nyc npm test"
     },
     "spm": {
         "main": "moment.js",

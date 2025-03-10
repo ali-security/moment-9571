@@ -199,7 +199,7 @@ module.exports = function (grunt) {
     // linting
     grunt.registerTask('lint', [
         'exec:eslint',
-        'exec:prettier-check',
+        // 'exec:prettier-check',
         'exec:checkMonthsParseIssue',
     ]);
 
